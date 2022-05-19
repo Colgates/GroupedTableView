@@ -69,7 +69,7 @@ class FilmCellViewModel {
     }
     
     var rating: Rating {
-        guard let filmRating = film.rating else { return Rating(text: "No rating yet", color: .label)}
+        guard let filmRating = film.rating else { return Rating(text: "-", color: .label)}
         return filmRating.setRating()
     }
 }

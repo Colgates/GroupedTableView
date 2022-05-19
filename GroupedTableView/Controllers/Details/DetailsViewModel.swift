@@ -27,25 +27,12 @@ class DetailsViewModel {
         localizedTitle = film.localizedName
         year = "Год: \(film.year)"
         
-        rating = film.rating?.setRating()
+        if let filmRating = film.rating {
+            rating = filmRating.setRating()
+        } else {
+            rating = Rating(text: "-", color: .label)
+        }
         
         description = film.description
-    }
-    
-    private func setRating() -> Rating {
-        guard let filmRating = film.rating else {
-            return Rating(text: "No rating yet", color: .label)
-        }
-        
-        switch filmRating {
-        case ..<5:
-            return Rating(text: "\(filmRating)", color: Constants.Colors.redRating)
-        case 5..<7:
-            return Rating(text: "\(filmRating)", color: Constants.Colors.greyRating)
-        case 7... :
-            return Rating(text: "\(filmRating)", color: Constants.Colors.greenRating)
-        default:
-            return Rating(text: "No rating yet", color: .label)
-        }
     }
 }
