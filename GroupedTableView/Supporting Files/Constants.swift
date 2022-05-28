@@ -9,9 +9,9 @@ import UIKit
 
 struct Constants {
     struct Colors {
-        static let greenRating = UIColor(named: "greenRating")!
-        static let greyRating = UIColor(named: "greyRating")!
-        static let redRating = UIColor(named: "redRating")!
+        static let greenRating = UIColor(hex: "007B00")
+        static let greyRating = UIColor(hex: "5F5F5F")
+        static let redRating = UIColor(hex: "FF0B0B")
     }
     
     struct Images {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DB295502841C62700C17CD1 /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2954F2841C62700C17CD1 /* UIColor + Extensions.swift */; };
 		8DF402802835CF9A0029EE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4027F2835CF9A0029EE9B /* AppDelegate.swift */; };
 		8DF402822835CF9A0029EE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF402812835CF9A0029EE9B /* SceneDelegate.swift */; };
 		8DF402842835CF9A0029EE9B /* FilmListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF402832835CF9A0029EE9B /* FilmListViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DB2954F2841C62700C17CD1 /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
 		8DF4027C2835CF9A0029EE9B /* GroupedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF4027F2835CF9A0029EE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF402812835CF9A0029EE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				8DF402BF28360BCD0029EE9B /* UIView + Extensions.swift */,
 				8DF402C128360BE60029EE9B /* Float + Extensions.swift */,
 				8DF402CA2836115B0029EE9B /* UIViewController + Extensions.swift */,
+				8DB2954F2841C62700C17CD1 /* UIColor + Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF402842835CF9A0029EE9B /* FilmListViewController.swift in Sources */,
+				8DB295502841C62700C17CD1 /* UIColor + Extensions.swift in Sources */,
 				8DF402A82835D9FC0029EE9B /* CustomLabel.swift in Sources */,
 				8DF402C9283611180029EE9B /* CustomButton.swift in Sources */,
 				8DF402BE28360AA60029EE9B /* FilmListViewModel.swift in Sources */,
